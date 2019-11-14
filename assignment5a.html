@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+
+    <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <script src="javascript/assignment5aJS.js"></script>
+
+</head>
+<body>
+    <div data-role="page" style="margin: 20px; width: 50%;">
+        <div data-role="header">
+        </div>
+
+        <div data-role="content">
+            
+            <div class="row">
+                <div class="col-md-2">
+                    <input type="number" name="units" id="units" min="0" max="1000">
+                </div>
+                <div class="col-md-3">
+                    <label  for="role" id="units_label">Centimeters</label>
+                </div>
+        
+            </div>
+           
+            <fieldset class="row" style="border: 1px solid gray;">
+                <legend>Convert to:</legend>
+                <div class="col-md-3">
+                    <input onclick="unit_select(this.value);" type="radio" name="unit" id="inches"checked="checked" value="inches">
+                    <label for="inches">Inches</label>
+                </div>
+                <div class="col-md-3">
+                    <input onclick="unit_select(this.value);" type="radio" name="unit" id="centimeters" value="centimeters">
+                    <label for="centimeters">Centimeters</label>
+                </div>
+                
+            </fieldset>
+
+            <div class="row">
+                <div class="col-md-3" style="background-color: gray; border: 2px solid lightgray;">
+                    <button style="background-color: gray;  border: 2px solid lightgray; color: black;" onclick="display();">Convert</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <label for="output" id="output">Output</label>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="footer">
+            
+        </div>
+
+    </div>
+</body>
+</html>

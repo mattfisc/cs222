@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Runner Aide</title>
+
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>Runner Aide</h1>
+        </div>
+        <div data-role="content">
+            <h3>Calculate Pace Chart:</h3>
+
+            <label for="distance">Distance</label>
+            <input type="text" name="distance" id="miles">
+            <label >miles</label>
+<br>
+            <label for="pace">Target Pace</label>
+            <input type="text" name="pace" id="time">
+            <label >min/mi(mm:ss)</label>
+<br>
+            <button onclick="calculate();">Calculate</button>
+
+
+        </div>
+        <div data-role="footer">
+            <table id="display">
+                <tr>
+                    <th>Mile</th>
+                    <th>Time</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <script src="javascript/assignment6a.js"></script>
+    
+</body>
+</html>

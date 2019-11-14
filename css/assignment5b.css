@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: 10px;
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    
+}
+.circle {
+    background-color: green;
+    border-radius: 50%;
+}
+.large{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.medium{
+    width: 60%;
+    height: 60%;
+    background-color: rgb(11, 54, 11);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.small{
+    width: 30%;
+    height: 30%;
+    background-color: blue;
+}
+#color_selector{
+    
+    font-size: 20px;
+
+
+}

@@ -1,0 +1,104 @@
+
+body{
+    background-image: url("../../images/light_rain_code.gif");
+    background-color: black;
+    color: rgb(95, 104, 97);
+    height: fit-content;
+}
+
+
+figure{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+img{
+    width: 200px;
+    margin: 0px;
+}
+#imgRow{
+    margin: 0px;
+    padding: 0px;
+}
+
+#matrix{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+h1{
+    
+    color: white;
+    text-align: center;
+}
+
+header{
+    padding: 5px;
+    background-color: rgb(3, 26, 3);
+    color: rgb(156, 72, 4);
+    text-align: center;
+}
+
+footer{
+    margin: 0px;
+    padding: 5px;
+    background-color: rgb(3, 26, 3);
+    color: rgb(156, 72, 4);
+    text-align: center;
+}
+
+a{
+    color: rgb(15, 15, 27);
+}
+
+a :hover{
+    color: brown;
+}
+
+div{
+    
+    color: green;   
+}
+#left{
+    background-color: rgba(3, 41, 9, 0.521);
+    padding: 10px 10px;
+
+}
+#right{
+    width: 100%;
+}
+
+a{
+   
+    color: rgb(93, 209, 83);
+    
+}
+#info{
+    color: white;
+    background-color: rgba(7, 7, 7, 0.534);
+    padding: 10px 50px;
+}
+footer a{
+    color: rgb(241, 243, 241);
+}
+pre{
+    background-color: black;
+    color: white;
+}
+.primary{
+    color: green;
+}
+.primary a{
+    color: green;
+}
+.secondary{
+    color: blue;
+}
+
+@media(max-width: 580px){
+    
+}

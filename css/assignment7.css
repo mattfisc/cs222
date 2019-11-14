@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 20px;
+}
+
+p {
+    margin-left: 25px;
+}
+
+#instructions {
+    background-color: yellow;
+    padding: 5px;
+    margin: 0;
+    text-align: left;
+}
+
+#difficulty_box {
+    border: 1px solid black;
+    display: flex;
+    margin-bottom: 10px;
+}
+.lab {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.display{
+    display: flex;
+    margin-top: 10px;
+}
+
+
+button {
+    width: 100%;
+    border: solid 1px grey;
+
+}
+
+#input {
+    width: 100%;
+    margin-bottom: 10px;
+}

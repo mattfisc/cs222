@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/assignment7.css">
+
+
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>Texting Tutor</h1>
+            
+        </div>
+        <div data-role="content">
+
+            <fieldset id="difficulty_box">
+                <legend>Choose Texting Difficulty</legend>
+               
+                <div>
+                    <label class="lab" for="beginner">Beginner</label>
+                    <input  id="beginner" type="radio" name="difficulty" value="0">
+                    
+                    <label class="lab" for="advanced">Advanced</label>
+                    <input id="advanced" type="radio" name="difficulty" value="1">
+                    
+                </div>
+
+            </fieldset>
+            <div>
+                <button onclick="startTest();">Click this button to start a test</button>
+                <p>The text you type will appear here:</p>
+                <p  id="instructions">Instructions Here</p>
+            </div>
+            <div>
+                <p>Enter Your Text Here:</p>
+                <input id="input" type="text">
+                <button onclick="finished();">Click this button when you are done typing</button>
+            </div>
+            <div>
+                <!--IMAGE-->
+            </div>
+            <div class="display">
+                <img id="image" src="images/nature.jpg" width="100" height="100" alt="smile">
+                <p id="display">Display</p>
+            </div>
+        </div>
+        <div data-role="footer">
+    
+        </div>
+    </div>
+    
+    <script src="javascript/assignment7.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Practice JavaScript</title>
+  <script src="javascript/assignment5cJS.js"></script>
+  <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+
+<body>
+  <div data-role="page">
+    <div data-role="header">
+      <h1>Levi C-Curve</h1>
+    </div>
+
+    <div data-role="content">
+      <!-- LABELS AND INPUT UI'S  -->
+      <label for="nLevels">level</label>
+      <input type="range" name='nLevels' id="nLevels" min='1' max='14' placeholder='1'><br>
+
+      <!-- BUTTON TO CREATE FRACTAL -->
+      <button onclick='drawIt();'>
+        Draw c-curve
+      </button>
+      <!--CREATE A CANVAS -->
+      <canvas id="canvasElement" height="100" width="100"></canvas>
+    </div>
+
+    <div data-role="footer">
+      <p><i>Mobile Solutions</i></p>
+    </div>
+  </div>
+
+
+</body>
+</html>
+

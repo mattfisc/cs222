@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Three Green Ring Bull's Eye App</title>
+
+    <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    
+</head>
+<body>
+    <div id="container">
+        
+        <header id="color_selector">
+            <div>
+                <h1>Three Green Ring Bull's Eye App</h1>
+            </div>
+            <div>
+                <input onchange="set_color(this.value);" id="color_slider" type="range" min="60" max="205" value="0">
+            </div>
+            
+            <div>
+                <button onclick="display();">Make Bull's Eye</button>
+
+            </div>
+            
+        </header>
+               
+        <div id="large">
+            <div id="medium">
+                <div id ="small">
+
+                </div>
+            </div>
+        </div>
+
+    
+    </div>
+
+    <script src="/javascript/assignment5bJS.js"></script>
+
+    
+</body>
+</html>
