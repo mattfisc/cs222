@@ -1,0 +1,127 @@
+body {
+    
+    background-color: lightgray;
+    width: 100%;
+    padding: 15px;
+}
+div {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 300px;
+   
+    color: black;
+}
+
+button {
+    width: 60px;
+    background-color: darkgray;
+
+    color: black;
+    padding: 2px;
+  
+    font-weight: bold;
+}
+
+.button {
+    width: 100px;
+    padding: 0px;
+    margin: 0px;
+
+    width: 60px;
+    background-color: darkgray;
+
+    color: black;
+    padding: 2px;
+  
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+table {
+    border: none;
+    background-color: darkgray;
+    padding: 0px;
+    margin: 0px;
+}
+
+table td {
+    border: white 1px solid;
+    /* border-top: black 1px solid;
+    border-right: black 1px solid; */
+}
+
+div {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.message {
+    
+    text-align: center;
+    
+    width: fit-content;
+    height: fit-content;
+    background-color: lightblue;
+    border: black 1px dashed;
+    padding: 10px;
+}
+#messageImg {
+    background-image: url('thumbs_up.jpg');
+    background-repeat: no-repeat;
+
+    width:270px;
+    height:185px;
+
+    background-color: black;
+}
+.error {
+    
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+
+    background-color: lightcoral;
+    border: red 1px dashed;
+    padding: 10px;
+
+}
+#errorImg {
+    background-image: url('thumbs_down.jpg');
+    background-repeat: no-repeat;
+
+    width:300px;
+    height:165px;
+    
+    background-color: black;
+}
+
+.title {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 10px;
+
+    color: white;
+    background-color: black;
+    border: white 1px solid;
+    padding: 10px;
+}
+
+.content {
+    padding: 10px;
+}
+
+#btn {
+    width: fit-content;
+    padding: 2px;
+}
